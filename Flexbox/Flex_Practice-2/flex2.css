@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 8px;
+}
+
+.header, .footer{
+    height: 10%;
+    flex: 0 0 100vw;
+    background-color: rgb(70, 35, 135);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSidebar, .rightSidebar{
+    height: 80%;
+    flex: 0 0 200px;
+    background-color: rgba(81, 241, 209, 0.664);
+}
+
+.content{
+    height: 80%;
+    flex: 1 1;
+}

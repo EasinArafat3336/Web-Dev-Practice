@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100%;
+}
+
+.nav{
+    height: 100px;
+    
+    margin: 20px 20px 0;
+    background-color: rgba(244, 245, 240, 1);
+    border: 1px solid rgb(89, 83, 83);
+    border-radius: 3px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.option{
+    display: flex;
+    gap: 5vw;
+}
+.option> a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    margin-right: 20px;
+}
+.btn >.log{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.btn> .Sign{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 3px;
+
+}

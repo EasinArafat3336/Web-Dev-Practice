@@ -1,0 +1,252 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.block{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pexels-eberhardgross-1287081.jpg);
+    background-size: cover;
+    
+    
+}
+.parent{
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    gap: 20vw;
+    overflow-x: hidden;
+    
+    
+}
+
+.parent> #list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2vw;
+    
+}
+
+.parent > #list > ul{
+    display: flex;
+    gap: 2vw;
+}
+.parent > #list > ul >li{
+    display: inline-block;
+    list-style: none; 
+}
+
+
+.parent >#list >ul >li >a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 18px;
+    transition: 0.3s;
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.parent >#list >ul >li >a:hover{
+    color: white;
+    background-color: black;
+}
+.parent >#list >ul >li >a:active{
+    transform: scale(0.8);
+}
+
+.parent >#logo{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.parent> #list> .btn> button{
+    font-size: 18px;
+    padding: 8px 30px;
+    cursor: pointer;
+    border: 2px black solid;
+    border-radius: 3px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+.parent> #list> .btn> button:hover{
+   color: white;
+   background-color: black;
+}
+.parent> #list> .btn> button:active{
+    transform: scale(0.8);
+}
+
+
+
+
+
+
+
+
+/*login form*/
+
+.form{
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.login{
+    height: 400px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: 2px rgba(250, 250, 250, 0.3) solid;
+    border-radius: 20px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.login> a{      /*cross*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 0 15px 0;
+    transition: 0.3s;
+
+}
+.login> a:active{
+    transform: scale(0.8);
+}
+
+
+
+.form > .login > span{/*Heading*/
+    font-size: 40px;
+    font-weight: bold;
+    margin: 25px 0 30px;
+}
+
+
+.form> .login >.input{/*input*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+#email, #pass{
+    height: 35px;
+    width: 75%;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px black solid;
+    background-color: transparent;
+    outline: none;
+} 
+#email::placeholder, #pass::placeholder{
+    color: black;
+    font-size: 16px;
+}
+.fa-envelope{       /*input icon*/
+    position: absolute;
+    top: 12px;
+    right: 50px;
+}
+.fa-lock{
+    position: absolute;
+    top: 65px;
+    right: 50px;
+}
+
+
+
+
+.check{             /*checkbox*/
+    margin: 30px 0 25px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.check> a{
+    text-decoration: none;
+    color: rgb(146, 57, 229);
+}
+.check> label> #checkbox{
+    margin-right: 1px;
+}
+
+
+
+.form> .login> button{ /*button*/
+    width: 75%;
+    height: 35px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+.form> .login> button:active{
+    transform: scale(0.85);
+}
+
+
+
+.form> .login> .register> a{ /*register*/
+    text-decoration: none;
+    color: rgb(146, 57, 229);
+}
+
+
+
+
+
+
+
+
+
+
+/*Registration form*/
+.registration{
+    height: 450px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px) ;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+
+    display: none;
+    flex-direction: column;
+    position: relative;
+    
+}

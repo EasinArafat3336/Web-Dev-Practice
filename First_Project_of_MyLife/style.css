@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: ;
+}
+
+/*Start Header*/
+header{
+  height: 60px;
+  margin-bottom: 30px;
+  background-color: #0f1111;
+  border: solid 3px rgb(241, 194, 72);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}
+header a{
+  color: white;
+  text-decoration: none;
+  margin-right: 300px;
+}
+header a:hover{
+  color: #f08804;
+  overflow: hidden;
+  font-size: 25px;
+
+}
+
+button{
+  border: solid 2px wheat;
+  border-radius: 3px;
+  background-color: #f08804;
+}
+  /*End Header*/
+
+/*Content area*/
+
+.container-one{
+  height: 300px;
+  display: flex;
+  
+  margin: 100px 0 100px 0;
+  justify-content: center;
+  align-items: center;
+}
+.container-two{
+  height: 300px;
+  display: flex;
+ 
+  margin: 100px 0 100px 0;
+  justify-content: center;
+  align-items: center;
+}
+.container-three{
+  height: 300px;
+  display: flex;
+  
+  margin: 100px 0 100px 0;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.fa-amazon{
+  
+  font-size: 30px;
+  color: #f08804;
+  padding: 10px 0 0 20px;
+  margin-right: 250px;
+
+  
+}
+footer{
+  height: 420px;
+  background: black ;
+}
+#logo{
+  height: 271px;
+  width: 330px;
+  padding: 80px;
+}
+.image{
+  display: inline-block;
+  height: 52.425px;
+  width: 230px;
+  margin: 0 100px 10px 0;
+}
+.fa-facebook, .fa-youtube, .fa-instagram {
+  color: orangered;
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff22;
+  justify-content: center;
+
+}
+.icon{
+  
+}
+
+
+.content-1{
+  
+  height: 200px;
+  width: 150px;
+  background-color: #f08804;
+  text-align: center;
+  color: black;
+  
+  margin: 10px;
+}
+.content-2{
+  height: 200px;
+  width: 150px;
+  background-color: rgb(235, 48, 135);
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  margin: 10px;
+ 
+
+  
+}
+.content-3{
+  height: 200px;
+  width: 150px;
+  background-color: red;
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  margin: 10px;
+}

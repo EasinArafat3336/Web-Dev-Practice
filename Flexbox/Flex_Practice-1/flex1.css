@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 70px;
+    background-color: rgba(92, 54, 92, 0.221);
+    border: 1px black solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(146, 31, 253, 0.976);
+
+    margin-left: 20px;
+}
+
+.opt > ul{
+    display: flex;
+    gap: 24px;
+
+    list-style: none;
+    color: black;
+    font-size: 20px;
+}
+
+.btn{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(146, 31, 253, 0.976);
+    color: black;
+    margin-right: 20px;
+}

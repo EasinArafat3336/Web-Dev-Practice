@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    height: 90vh;
+    width: 90vw;                                                
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20;
+    
+}
+
+.main> div{
+    height: 150px;
+    width: 150px;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: rgba(156, 150, 150, 0.791);
+}
+
+.container1{
+    g
+}
+
+
+
+

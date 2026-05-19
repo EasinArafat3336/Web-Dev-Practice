@@ -1,0 +1,28 @@
+#first{
+  list-style-type: upper-latin;
+
+}
+#second{
+  list-style-type: disc;
+  list-style-position: outside;
+}
+.table-a{
+  height: 200px;
+  width: 550px;
+}
+.table-a tr{  
+
+}
+.table-a tr th{  
+  background-color: black;
+  color: white;
+}
+.table-a tr td:hover{  
+  background-color: rgb(119, 117, 121);
+  color: white;
+}
+.table-a, tr, th, td{  
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
