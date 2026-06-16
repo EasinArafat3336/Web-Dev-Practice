@@ -8,20 +8,26 @@
     height: 100vh;
     width: 100vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.firstColorType, .SecondColorType{
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-.displayColor{
+.displayColor, .SecondisplayColor{
     height: 30vh;
     width: 30vw;
     border: 1px solid black;
     background-color: rgb(255, 255, 255);
 }
 
-.displayCode{
+.displayCode, .SecondisplayCode{
     height: 50px;
     width: 30vw;
     border: 1px solid black;
@@ -33,14 +39,14 @@
     align-items: center;
 }
 
-.buttons{
+.buttons, .buttonSecond{
     height: 50px;
     width: 30vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.buttons button{
+.buttons button, .buttonSecond button{
     height: 50px;
     width: 80px;
     background-color: black;
