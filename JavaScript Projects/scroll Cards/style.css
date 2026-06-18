@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 199, 199);
+    position: relative;
+}
+
+.rapper{
+    height: 25vh;
+    width: 50vw;
+    background-color: #fff;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.rapper::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+
+
+.fa-arrow-left{
+    position: absolute;
+    font-size: 30px;
+    left: 23%;
+    z-index: 2;
+}
+.fa-arrow-right{
+    position: absolute;
+    font-size: 30px;
+    right: 23%;
+    z-index: 2;
+}
+
+.rapper .scroll{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 25px;
+
+}
+.rapper .scroll div{
+    min-height: 100%;
+    min-width: 300px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: blueviolet; 
+}
