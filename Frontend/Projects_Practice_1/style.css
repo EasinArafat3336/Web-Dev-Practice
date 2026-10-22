@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lexend exa;
+}
+
+body{
+    height: 100%;
+    width: 100vw;
+    background-color: rgb(230, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.nav{
+    height: 7vh;
+    width: 83.5vw;
+    background-color: white;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left{
+    display: flex;
+    gap: 30px;
+    margin: 0 50px;
+}
+
+.logo{
+    display: flex;
+    gap: 4px;
+    
+}
+
+.logo> .first4 span{
+    height: 28px;
+    width: 4px;
+    background-color: black;
+    display: inline-block;
+}
+.logo> .second4 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.logo> .second4 span{
+    height: 4px;
+    width: 28px;
+    background-color: black;
+    display: inline-block;
+}
+
+
+
+.option > ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.option > ul > li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.option> ul> li> .more{
+    color: red;
+}
+.right{
+    display: flex;
+    gap: 30px;
+    margin: 0 50px;
+}
+
+.right> a{
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+}
+
+.right> .log{
+    color: black;
+    font-size: 18px;
+}
+
+
+/*Bottom nav*/
+.bottomNav{
+    height: 7vh;
+    width: 83.5vw;
+    background-color: white;
+    margin-top: 2px;
+}
+.bottomNav ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin-left: 50px;
+}
+.bottomNav ul li a{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.bottomNav> ul > li .about{
+    color: red;
+}
+
+
+/*total bottom */
+.total{
+    height: 100%;
+    width: 83.5vw;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*background image*/
+.img{
+    height: 86vh;
+    width: 83.5%;
+    background-image: url(header.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img>span{
+    font-size: 110px;
+    font-weight: 10px;
+    color: orangered;
+    z-index: 5;
+}
+
+.text{
+    height: 40vh;
+    width: 100%;
+    padding-top: 100px;
+}
+.heading,.paragraph{
+    display: block;
+    max-width: 52%;
+    margin:0 auto;
+    overflow: hidden;
+    
+}
+.heading{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.paragraph{
+    font-size: 20px;
+}
+
+.text> span span{
+    color: blue;
+}
+
+
+/*           Photo              */
+
+.photo{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin-top: vh;
+}
+.photo1{
+    display: block;
+    height: 34vw;
+    width: 34vw;
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    z-index: 1;
+}
+
+.fixed{
+    height: 99%;
+    width: 60%;
+    background-color: rgba(255, 255, 0, 0.422);
+    position: relative;
+    margin-left: auto;
+
+
+}
+.photo2{
+    height: 20vw;
+    width: 25vw;
+    position: absolute;
+    right: 15%;
+    top: 30%;
+}
+
+
+
+/*for video part*/
+.video{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
+
+.insideVideo{
+    height: 100%;
+    width: 50%;
+}
+
+.insideVideo> iframe{
+    height: 50vh;
+    width: 100%;
+    margin: 15vh 0;
+}
+.heading2, .heading3{
+    font-size: 30px;
+    display: block;
+    margin-top: 15vh;
+}
+.heading3{
+    margin-top: 35px;
+}
+.paragraph2, .paragraph3{
+    display: block;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.photoCard2{
+    height: 130vh;
+    width: 100%;
+    position: relative;
+}
+.part1{
+    height: 100%;
+    width: 60%;
+    background-color: black;
+    position: relative;
+}
+.photo3, .photo4{
+    height: 21vw;
+    width: 28vw;
+    position: absolute;
+}
+.photo3{
+    top: 15vh;
+    left: 15vh;
+}
+.photo4{
+    bottom: 15vh;
+    left: 15vh;
+}
+.photo5{
+    height: 34vw;
+    width: 34vw;
+    position: absolute;
+    right: 15vh;
+    top: 30vh;
+}
+
+
+/* for Text 2*/
+.total > .text2{
+    width: 51%;
+    margin: 14vh auto;
+
+}
+.text2Heading1{
+    font-size: 30px;
+    display: block;
+    margin-bottom: 15px;
+}
+.text2Paragraph1{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+/* for Poster*/
+.Poster{
+    
+    height: 80vh;
+    width: 83%;
+    margin-bottom: 14vh;
+}
+
+
+
+
+/* for text3 */
+.text3{
+    width: 52%;
+    margin: 0 auto 14vh;
+}
+.text3Heading1{
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.text3Paragraph1{
+    font-size: 20px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+.text3Paragraph2{
+    font-size: 20px;
+}
+
+
+
+/*for PhotoCard3*/
+.photoCard3{
+    height: 99vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 14vh;
+}
+.colour{
+    height: 100%;
+    width: 66%;
+    margin: 0 auto;
+    background-color: rgba(171, 112, 227, 0.625);
+}
+.photoCard3> .photo6{
+    height: 20vw;
+    width: 25vw;
+    object-fit: cover;
+    position: absolute;
+    top: 30vh;
+    left: 15vh;
+    
+}
+.photoCard3 > .photo7{
+    height: 34vw;
+    width: 34vw;
+    object-fit: cover;
+    position: absolute;
+    top: 15vh;
+    right: 0; 
+}
+
+
+/*for text 4*/
+.text4{
+    width: 50%;
+    margin: 0 auto 15vh;
+}
+.text4Heading1{
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.text4Paragraph1{
+    font-size: 20px;
+}
+
+
+
+/* for PhotoCard 4*/
+.photoCard4{
+    height: 70vh;
+    width: 80%;
+    background-color: red;
+    margin: 0 auto 14vh;
+    display: flex;
+    
+}
+.photo8{
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+}
+.link{
+    height: 100%;
+    width: 50%;
+    background-color: #b1c5ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.first{
+    width: 60%;
+    font-size: 30px;
+}
+.link > span >a{
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+    margin-top: 30px;
+    display: block;
+}
+/* the end of all total part*/
+
+
+
+
+
+
+
+
+
+
+/*      footer        */
+.footer{
+    height: 100%;
+    width: 83.5vw;
+    background-color: white;
+    margin-top: 2px;
+}

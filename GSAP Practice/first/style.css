@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+.container div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.card1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 255, 38);
+}
+.card2{
+    background-color: rgb(255, 0, 0);
+}
+.card3{
+    background-color: rgb(1, 187, 254);
+}
+.card4{
+    background-color: rgb(247, 0, 255);
+}
+.card5{
+    background-color: rgb(254, 208, 1);
+}
+.card6{
+    background-color: rgb(0, 42, 255);
+}
+

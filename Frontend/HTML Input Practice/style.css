@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    background-color: rgba(227, 224, 219, 0.627);
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #0f0f13;
+}
+
+/*THE start of Input Types*/
+
+
+
+/*Start of TEXT =============================*/
+
+.Text{
+    height: 300px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+/*First Input type = Text*/
+.firstText{
+    height: 200px;
+    width: 30vw;
+    background-color: #16161e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #444467;
+    border-radius: 20px;
+}
+.firstText .cover{
+    width: 80%;
+}
+.firstText h4{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.533);
+    padding-bottom: 2px;
+}
+.firstText input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid #444467;
+    border-radius: 5px;
+    background-color: #0f0f13;
+    margin: 0 auto;
+    padding-left: 20px;
+    color: rgb(255, 255, 255);
+}
+.firstText input:focus{
+    outline: none;
+    border: 1px solid #9898ff;
+}
+
+/*Second Input type = Text*/
+.secondTextProject{
+    height: 200px;
+    width: 30vw;
+    border: 1px solid #444467;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #16161e;
+
+}
+.coverSecond{
+    width: 90%;
+    height: 100px;
+    background-color: #1a1a2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.forCover{
+    width: 90%;
+    background-color: ;
+}
+.coverSecond h6{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.459);
+    font-weight: 100;
+    text-transform: uppercase;
+    
+}
+.coverSecond input{
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #444467;
+    background-color: transparent;
+    color: #ffff;
+}
+.coverSecond input:focus{
+    border-bottom: 2px solid #9898ff;
+    outline: none;
+    
+}
+.coverSecond input::placeholder{
+    font-size: 15px;
+}
+
+
+
+
+/*Start of Email===============*/
+.email{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email .firstEmailProject{
+    height: 200px;
+    width: 30vw;
+    background-color: #1c1c28;
+    border-radius: 20px;
+    border-left: 5px solid rgb(0, 128, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email .field{
+    width: 90%;
+    background-color: transparent;
+}
+.email h5{
+    color: rgba(255, 255, 255, 0.554);
+    font-size: 15px;
+    padding-bottom: 2px;
+}
+.email input{
+    height: 40px;
+    width: 100%;
+    background-color: #1c1c28;
+    border-radius: 5px;
+    box-shadow: inset 4px 4px 8px #0a0a10, inset -4px -4px 8px #2a2a3a;
+    color: white;
+    border: none;
+    padding-left: 10px;
+}
+.email input:focus{
+    outline: none;
+}
+
+
+/*start of Checkbox============*/
+.checkbox input{
+    height: 20px;
+    width: 20px;
+    color: ;
+}
+.checkbox label{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 10px;
+}
